@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  position: relative;
+}
+
+.input {
+  border-radius: 20px;
+  border: 2px solid #D3D3D3;
+  height: 40px;
+  padding: 5%;
+  margin: 2%;
+  margin-top: 0;
+  margin-bottom: 4px;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton {
+  position: absolute;
+  padding: 0%;
+  height: 100%;
+  width: 12.3%;
+  right: 2%;
+  bottom: 6%;
+  border-radius: 50px;
+  border: none;
+  background: white;
+}
+
+.send{
+  position: absolute;
+  height: 70%;
+  width: 70%;
+  right: 20%;
+  bottom: 14%;
+}
